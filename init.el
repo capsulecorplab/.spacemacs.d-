@@ -495,7 +495,11 @@ before packages are loaded."
   ;; Enable Transparency
   (spacemacs/enable-transparency)
 
- ;; org-roam v2
+  ;; syntax highlighting for code blocks
+  ;; see https://stackoverflow.com/questions/10642888/syntax-highlighting-within-begin-src-block-in-emacs-orgmode-not-working
+  (setq org-src-fontify-natively t)
+
+  ;; org-roam v2
   (use-package org-roam
     :load-path "/root/org-roam"
     :custom
