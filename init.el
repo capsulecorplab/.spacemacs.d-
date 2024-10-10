@@ -608,7 +608,7 @@ before packages are loaded."
      "* %^{operationname} [/] [%] :operational:\n:PROPERTIES:\n:CREATED: %U\n:END:" :empty-lines 0)
     ("c" "Case Entry" entry
      (file+headline "~/katra/zettelkasten.org" "unsorted")
-     "* Backlog %? :case:\n:PROPERTIES:\n:CREATED: %U\n:END:" :empty-lines 0)
+     "* Backlog investigate %? :case:\n:PROPERTIES:\n:CREATED: %U\n:END:" :empty-lines 0)
     ("d" "Downselect Entry" entry
      (file+headline "~/katra/zettelkasten.org" "unsorted")
      "* Backlog downselect %? :focusedtask:\n:PROPERTIES:\n:CREATED: %U\n:END:" :empty-lines 0)
